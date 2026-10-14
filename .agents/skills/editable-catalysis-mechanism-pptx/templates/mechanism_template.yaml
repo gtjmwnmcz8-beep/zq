@@ -1,0 +1,41 @@
+schema_version: 1
+title: Editable catalytic mechanism
+theme:
+  background: "#FFFFFF"
+  foreground: "#1F2937"
+  accent: "#C2410C"
+  catalyst: "#D1D5DB"
+slides:
+  - title: Reaction overview
+    catalyst:
+      label: Catalyst surface
+      x: 0.8
+      y: 5.7
+      width: 11.7
+      height: 0.65
+    species:
+      - id: reactant
+        label: Reactant
+        smiles: "CC"
+        x: 1.0
+        y: 2.2
+        width: 2.5
+        height: 2.0
+      - id: product
+        label: Product
+        smiles: "C=C"
+        x: 9.7
+        y: 2.2
+        width: 2.5
+        height: 2.0
+    arrows:
+      - from: reactant
+        to: product
+        label: catalyst, temperature
+    texts:
+      - text: All atoms, bonds, arrows, and labels are native PowerPoint shapes.
+        x: 2.8
+        y: 6.65
+        width: 7.8
+        height: 0.35
+        size: 11

@@ -1,0 +1,13 @@
+schema_version: 1
+title: Monoclinic ZrO2 local coordination
+slides:
+  - title: Monoclinic ZrO₂ local structure
+    crystal:
+      input: monoclinic_zro2.cif
+      center_element: Zr
+      radius: 3.2
+      x: 1.2
+      y: 1.25
+      width: 10.9
+      height: 5.25
+      label: Zr-centered periodic cluster; cutoff 3.2 Å

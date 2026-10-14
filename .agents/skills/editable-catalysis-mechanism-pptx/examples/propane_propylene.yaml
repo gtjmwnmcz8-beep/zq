@@ -1,0 +1,30 @@
+schema_version: 1
+title: Propane and propylene editable molecule models
+slides:
+  - title: Propane / propylene
+    species:
+      - id: propane
+        label: Propane (C3H8)
+        input: propane.smi
+        x: 0.8
+        y: 1.7
+        width: 4.6
+        height: 3.8
+      - id: propylene
+        label: Propylene (C3H6)
+        input: propylene.smi
+        x: 7.9
+        y: 1.7
+        width: 4.6
+        height: 3.8
+    arrows:
+      - from: propane
+        to: propylene
+        label: −H₂
+    texts:
+      - text: Native editable atom circles and bond connectors
+        x: 3.9
+        y: 6.35
+        width: 5.5
+        height: 0.4
+        size: 13
