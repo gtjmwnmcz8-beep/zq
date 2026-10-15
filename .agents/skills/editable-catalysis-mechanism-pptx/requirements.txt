@@ -1,0 +1,8 @@
+python-pptx==1.0.2
+rdkit==2026.9.1
+pymatgen==2026.9.24
+numpy==2.5.4
+scipy==1.18.1
+matplotlib==3.11.2
+PyYAML==6.0.3
+pillow==12.3.0

@@ -1,0 +1,60 @@
+schema_version: 1
+title: Propane dehydrogenation over V/ZrO2
+theme:
+  accent: "#B45309"
+slides:
+  - title: Proposed propane dehydrogenation cycle over V/ZrO₂
+    catalyst:
+      label: V–O–Zr interfacial site (schematic)
+      x: 0.65
+      y: 5.72
+      width: 12.0
+      height: 0.62
+      sites:
+        - {element: Zr, x: 2.2}
+        - {element: O, x: 3.5}
+        - {element: V, x: 4.8}
+        - {element: O, x: 6.1}
+        - {element: Zr, x: 7.4}
+        - {element: O, x: 8.7}
+        - {element: Zr, x: 10.0}
+    species:
+      - id: propane
+        label: Propane adsorption
+        smiles: "CCC"
+        x: 0.55
+        y: 1.65
+        width: 2.35
+        height: 2.25
+      - id: alkyl
+        label: V–propyl + OH
+        smiles: "[CH2]CC"
+        x: 3.65
+        y: 1.65
+        width: 2.35
+        height: 2.25
+      - id: propylene
+        label: Propylene desorption
+        smiles: "CC=C"
+        x: 6.75
+        y: 1.65
+        width: 2.35
+        height: 2.25
+      - id: regenerated
+        label: Site regeneration
+        smiles: "[H][H]"
+        x: 9.85
+        y: 1.65
+        width: 2.35
+        height: 2.25
+    arrows:
+      - {from: propane, to: alkyl, label: C–H activation}
+      - {from: alkyl, to: propylene, label: β-H elimination}
+      - {from: propylene, to: regenerated, label: C₃H₆ release}
+    texts:
+      - text: Proposed schematic — validate oxidation states and elementary steps against evidence.
+        x: 2.15
+        y: 6.62
+        width: 9.0
+        height: 0.35
+        size: 10
